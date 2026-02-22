@@ -1,8 +1,8 @@
-# 📱 Interactive Social Feed Application
+#  Interactive Social Feed Application
 
 A responsive social media feed application built with React and Vite that demonstrates modern React patterns including component-based architecture, state management with hooks, and browser data persistence. **Now with full image posting support!**
 
-## ✨ Features
+##  Features
 
 ### Core Features (Implemented)
 - **Display Posts Feed**: View a timeline of posts with author information and timestamps
@@ -13,16 +13,16 @@ A responsive social media feed application built with React and Vite that demons
 - **Data Persistence**: All posts, likes, comments, and images persist using localStorage
 
 ### Technical Highlights
-- ⚡ Lightning-fast development with Vite
-- 🎨 Responsive UI design (mobile-first)
-- 🔗 Component-based architecture
-- 🎯 React Hooks for state management (useState, useEffect)
-- 💾 localStorage for data persistence
-- 📸 FileReader API for image to Base64 conversion
-- 📊 Activity stats dashboard
-- 🎭 Smooth animations and transitions
+-  Lightning-fast development with Vite
+-  Responsive UI design (mobile-first)
+-  Component-based architecture
+-  React Hooks for state management (useState, useEffect)
+-  localStorage for data persistence
+-  FileReader API for image to Base64 conversion
+-  Activity stats dashboard
+-  Smooth animations and transitions
 
-## 📋 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -47,7 +47,7 @@ src/
 └── main.jsx             # React entry point
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -116,7 +116,7 @@ Remove/Keep → Submit Post → Save with Image Data
 3. Click "Post Comment" to add your comment
 4. Comments section expands and shows all comments on the post
 
-## 💾 Data Persistence
+##  Data Persistence
 
 All data is automatically saved to your browser's localStorage:
 - **Posts**: Stored under the key `socialfeed_posts` (includes image data as Base64)
@@ -142,11 +142,11 @@ Images are converted to Base64 strings and stored directly within the post objec
 ```
 
 **Why Base64?**
-- ✅ Stores image data directly in JavaScript objects
-- ✅ localStorage can only store text (strings)
-- ✅ No external storage or CDN required
-- ✅ Images persist with posts automatically
-- ⚠️ Increases file size by ~33% (acceptable for small to medium images)
+-  Stores image data directly in JavaScript objects
+-  localStorage can only store text (strings)
+-  No external storage or CDN required
+-  Images persist with posts automatically
+-  Increases file size by ~33% (acceptable for small to medium images)
 
 **To reset data:** Open browser DevTools → Application → LocalStorage → Clear the entries
 
